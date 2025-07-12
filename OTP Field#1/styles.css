@@ -80,3 +80,22 @@ form button.active {
 form button:hover{
     background: #92a2bf;
 }
+
+img{
+    width: auto;
+    height: 60px;
+    position: absolute;
+    bottom: 5px;
+    opacity: 50%;
+    left: 5px;
+    cursor: pointer;   
+    transition: 1.5s ease;
+    
+}
+
+img:hover{
+    
+    opacity: 100%;
+    height: 80px;
+    width: auto;
+}
